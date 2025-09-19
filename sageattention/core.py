@@ -81,7 +81,7 @@ def sageattn(
     is_causal: bool = False,
     sm_scale: Optional[float] = None,
     return_lse: bool = False,
-    arch: str = "sm90"
+    arch: str = "sm90",
     **kwargs: Any,
 ):
     """
